@@ -6,7 +6,7 @@ class CountingPrimes:
     def __init__(self, n):
         self.n = n
     def findNthPrime(self):
-        from problem3 import Primes
+        from problem03 import Primes
         primeCount = 0
         num = 2
         while primeCount < self.n:

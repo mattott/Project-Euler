@@ -6,7 +6,7 @@ class SumPrimes:
     def __init__(self, limit):
         self.limit = limit
     def findLimit(self):
-        from problem3 import Primes
+        from problem03 import Primes
         total = 0
         for i in range(2, self.limit):
             total += i if Primes().isPrime(i) else 0

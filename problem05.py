@@ -5,9 +5,9 @@ class DivisibleRange:
         self.r = r
 
     def findSmallest(self):
-        import problem3
+        import problem03
         import math
-        prime = problem3.Primes()
+        prime = problem03.Primes()
         smallest = 1
         factors = {}
         for v in range(self.r-9, self.r+1):
